@@ -1,0 +1,33 @@
+# System
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# Environments
+venv/
+env/
+.env
+
+# Data and Checkpoints (Large Files)
+data/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Logs and Results
+logs/
+*.log
+*.csv
+dataset_distribution.png
+workflow_diagram.png
+dataset_source_composition.png
+train_test_split.png
+question_type_distribution.png
+dataset_distribution.png
+
+# IDEs
+.vscode/
+.idea/
