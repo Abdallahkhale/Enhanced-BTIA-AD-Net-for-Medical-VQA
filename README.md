@@ -49,7 +49,10 @@ pip install -r requirements.txt
 
 ### 2. Prepare Data
 ```bash
-# Downloads VQA-RAD and checks for PathVQA
+# 1. Download PathVQA (Large dataset ~1.5GB)
+python download_datasets.py
+
+# 2. Download VQA-RAD and prepare splits
 python dataset.py
 ```
 
